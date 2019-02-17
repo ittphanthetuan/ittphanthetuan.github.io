@@ -20,7 +20,7 @@ class CategoryTitle extends React.PureComponent {
 }
 
 CategoryTitle.propTypes = {
-  children: PropTypes.string,
+  children: PropTypes.any,
 };
 
 export default CategoryTitle;

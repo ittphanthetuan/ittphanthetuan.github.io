@@ -39,22 +39,20 @@ export class HomePage extends React.PureComponent {
       <HomePageWrapper>
         <BoxInfo {...dataCV} />
         {categories &&
-          categories.map((item, index) => {
-            return (
-              <div className="box-category">
-                <CategoryTitle>{romanize(index + 1)}. {item.title}</CategoryTitle>
-                {item.listInfo && item.listInfo.map(itemInfo => (
-                  <>
-                    {itemInfo.title && <YearTitle title={itemInfo.title}></YearTitle>}
-                    <ListInfo list={itemInfo.list}></ListInfo>
-                  </>
-                ))}
+          categories.map((item, index) => (
+            <div className="box-category" key={index.toString()} >
+              <CategoryTitle>{romanize(index + 1)}. {item.title}</CategoryTitle>
+              {item.listInfo && item.listInfo.map(itemInfo => (
+                <div key={itemInfo.title + index.toString()}>
+                  {itemInfo.title && <YearTitle title={itemInfo.title}></YearTitle>}
+                  <ListInfo list={itemInfo.list}></ListInfo>
+                </div>
+              ))}
 
-                {item.rowInfo ? <RowInfo data={item.rowInfo} /> : null}
-                {item.tableInfo ? <TableInfo data={item.tableInfo} /> : null}
-              </div>
-            );
-          })}
+              {item.rowInfo ? <RowInfo data={item.rowInfo} /> : null}
+              {item.tableInfo ? <TableInfo data={item.tableInfo} /> : null}
+            </div>
+          ))}
       </HomePageWrapper>
     );
   }

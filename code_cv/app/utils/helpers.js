@@ -8,7 +8,9 @@ export const romanize = (num) => {
     '','I','II','III','IV','V','VI','VII','VIII','IX'];
   let roman = '';
   let i = 3;
-  while (i--)
-      roman = (key[+digits.pop() + (i * 10)] || '') + roman;
+  while (i--) {
+    roman = (key[+digits.pop() + (i * 10)] || '') + roman;
+  }
+      
   return Array(+digits.join('') + 1).join('M') + roman;
 }

@@ -22,8 +22,8 @@ class BoxInfo extends React.PureComponent {
           {position && <div className="position-info">{position}</div>}
           <ul className="list-info">
             {listInfo &&
-              listInfo.map(item => (
-                <li>
+              listInfo.map((item, index) => (
+                <li key={item + index.toString()}>
                   <strong>{item.label} : </strong>
                   <span>{item.text}</span>
                 </li>

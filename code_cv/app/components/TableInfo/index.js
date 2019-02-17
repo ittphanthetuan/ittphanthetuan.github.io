@@ -5,7 +5,6 @@ import TableInfoWrapper from './TableInfoWrapper';
 function TableInfo(props) {
   const { data } = props;
   const { header, body } = data;
-  console.log(body, 'body');
   return (
     <TableInfoWrapper>
       <thead>
@@ -14,8 +13,8 @@ function TableInfo(props) {
         </tr>
       </thead>
       <tbody>
-        {body && body.map(item => (
-          <tr key={item}>
+        {body && body.map((item, idx) => (
+          <tr key={idx.toString()}>
             {item.cells && item.cells.map((cell, index) => <td style={{ textAlign: header[index].textAlign }}>{renderHTML(cell)}</td>) }
           </tr>
         ))}
