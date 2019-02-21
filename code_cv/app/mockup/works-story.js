@@ -36,7 +36,7 @@ export default {
         ],
       },
       {
-        cells: ['2', 'Sutrix solution', '2017 - now', '1.5 Year', 'Full Stack',
+        cells: ['2', 'Sutrix solution', '2017 - now', '1.5 Year', 'Front-end',
           `
           <p>- Coding jQuery plugins for the projects.</p>
           <p>- Doing layout HTML/CSS for the web responsive.</p>
