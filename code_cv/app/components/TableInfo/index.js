@@ -15,7 +15,9 @@ function TableInfo(props) {
       <tbody>
         {body && body.map((item, idx) => (
           <tr key={idx.toString()}>
-            {item.cells && item.cells.map((cell, index) => <td style={{ textAlign: header[index].textAlign }}>{renderHTML(cell)}</td>) }
+            {item.cells && item.cells.map((cell, index) => header[index]
+              && <td style={{ textAlign: header[index].textAlign }}>{renderHTML(cell)}</td>)
+            }
           </tr>
         ))}
       </tbody>

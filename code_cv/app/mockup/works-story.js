@@ -32,7 +32,10 @@ export default {
     body: [
       {
         cells: ['1', 'Nina', '2015 - 2017', '1.5 Year', 'Full Stack',
-          '<p>- PHP, CSS, Jquery, JavaScript</p>',
+          `
+          <p>- PHP, CSS, Jquery, JavaScript</p>
+          <p>- Convert PSD to HTML</p>
+          `,
         ],
       },
       {
@@ -41,7 +44,8 @@ export default {
           <p>- Coding jQuery plugins for the projects.</p>
           <p>- Doing layout HTML/CSS for the web responsive.</p>
           <p>- Supporting JS and HTML/CSS</p>
-          <p>- ReactJS, React Native, Redux, VueJS, Jquery, Gulp, HTML(Pug), CSS (SCSS)</p>
+          <p>- Convert PSD to HTML</p>
+          <p>- ReactJS (use Boilerplate Template, Cordova) , React Native, Redux, VueJS, Jquery, NodeJS (Express), Gulp, HTML(Pug), CSS (SCSS)</p>
           `,
         ],
       },

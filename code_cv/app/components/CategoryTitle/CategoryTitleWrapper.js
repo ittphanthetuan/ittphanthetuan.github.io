@@ -7,9 +7,9 @@ const TitleCategoryWrapper = styled.div`
   align-items: center;
   margin: 15px 0 20px 0;
   border-bottom: 1px solid #000;
-  color: #fff;
-  background-color: #000;
-  padding: 5px 15px;
+  // color: #fff;
+  // background-color: #1867AA;
+  padding: 5px 10px;
   -webkit-print-color-adjust: exact;
 
   span {

@@ -15,7 +15,7 @@ export default {
         width: 100,
       },
       {
-        title: 'Inter-Media',
+        title: 'Intermediate',
         width: 100,
       },
       {
@@ -26,10 +26,10 @@ export default {
         title: 'Excellent/Expert',
         width: 100,
       },
-      {
-        title: 'Year of use',
-        width: 100,
-      },
+      // {
+      //   title: 'Year of use',
+      //   width: 100,
+      // },
     ],
     body: [
       {
@@ -54,7 +54,7 @@ export default {
         cells: ['6', 'JQuery', '', '', '<b>x</b>', '', '2'],
       },
       {
-        cells: ['7', 'Node/ExpressJS', '', '<b>x</b>', '', '', '0.5'],
+        cells: ['7', 'Node/ExpressJS', '', '', '<b>x</b>', '', '0.5'],
       },
       {
         cells: ['8', 'PHP', '', '', '<b>x</b>', '', '1.5'],
@@ -93,7 +93,7 @@ export default {
         cells: ['3', 'GIT', '', '<b>x</b>', '', '', '1'],
       },
       {
-        cells: ['4', 'Github/Gitlap', '', '<b>x</b>', '', '', '1'],
+        cells: ['4', 'Github/Gitlab', '', '<b>x</b>', '', '', '1'],
       },
       {
         cells: ['5', 'Jira', '', '<b>x</b>', '', '', '1'],

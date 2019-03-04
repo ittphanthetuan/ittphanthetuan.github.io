@@ -32,7 +32,7 @@ export default {
         cells: ['1', 'Vietnamese', '', '', '','<b>x</b>'],
       },
       {
-        cells: ['2', 'English', '<b>x</b>', '', '',''],
+        cells: ['2', 'English', '', '<b>x</b>', '',''],
       },
     ],
   },

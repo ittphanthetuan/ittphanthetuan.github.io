@@ -11,17 +11,19 @@ import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import { Switch, Route } from 'react-router-dom';
 import HomePage from 'containers/HomePage';
+import GlobalStyles from '../../global-styles';
 
 const AppWrapper = styled.div`
-  max-width: 1024px;
+  width: 210mm;
+  min-height: 297mm;
+  padding: 20mm;
   margin: 0 auto;
-  display: flex;
-  min-height: 100%;
-  padding: 50px 16px;
-  flex-direction: column;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-  font-size: 16px;
+  background: white;
 
+  border-left: 1px #D3D3D3 solid;
+  border-right: 1px #D3D3D3 solid;
+  // border-radius: 5px;
+  // box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   
 `;
 
@@ -30,10 +32,11 @@ export default function App() {
     <AppWrapper>
       <Helmet
         titleTemplate="%s - React.js Boilerplate"
-        defaultTitle="React.js Boilerplate"
+        defaultTitle="Frontend Developer_Phan The Tuan_https://vexere.com/vi-vn/tuyen-dung/information-technology/reactjs-top-frontend-developerlead-wanted--59/"
       >
         <meta name="description" content="A React.js Boilerplate application" />
       </Helmet>
+      <GlobalStyles />
       <Switch>
         <Route exact path="/" component={HomePage} />
         {/* <Route path="/features" component={FeaturePage} />

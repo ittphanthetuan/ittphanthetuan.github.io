@@ -4,6 +4,11 @@ const TableInfoWrapper = styled.table`
   width: 100%;
   text-align: center;
   border-collapse: collapse;
+  margin-top: 35px;
+
+  thead {
+    display: table-row-group;
+  }
   
   thead th {
     background-color: #f2f2f2;
