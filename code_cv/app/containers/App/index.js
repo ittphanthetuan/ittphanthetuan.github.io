@@ -32,7 +32,7 @@ export default function App() {
     <AppWrapper>
       <Helmet
         titleTemplate="%s - React.js Boilerplate"
-        defaultTitle="Frontend Developer_Phan The Tuan_https://vexere.com/vi-vn/tuyen-dung/information-technology/reactjs-top-frontend-developerlead-wanted--59/"
+        defaultTitle="Frontend Developer_Phan The Tuan"
       >
         <meta name="description" content="A React.js Boilerplate application" />
       </Helmet>

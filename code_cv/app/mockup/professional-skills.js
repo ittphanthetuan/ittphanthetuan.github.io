@@ -54,11 +54,11 @@ export default {
         cells: ['6', 'JQuery', '', '', '<b>x</b>', '', '2'],
       },
       {
-        cells: ['7', 'Node/ExpressJS', '', '', '<b>x</b>', '', '0.5'],
+        cells: ['7', 'Node/ExpressJS', '', '<b>x</b>', '', '', '0.5'],
       },
-      {
-        cells: ['8', 'PHP', '', '', '<b>x</b>', '', '1.5'],
-      },
+      // {
+      //   cells: ['8', 'PHP', '', '', '<b>x</b>', '', '1.5'],
+      // },
       {
         cells: ['9', 'React Native', '', '<b>x</b>', '', '', '0.5'],
       },
@@ -66,29 +66,29 @@ export default {
         cells: ['10', 'ReactJS', '', '', '<b>x</b>', '', '1'],
       },
       {
-        cells: ['11', 'Restful API', '', '', '<b>x</b>', '', '1'],
+        cells: ['11', 'Restful API', '', '<b>x</b>', '', '', '1'],
       },
       {
         cells: ['12', 'Mongodb/mongoose', '', '<b>x</b>', '', '', '2'],
       },
       {
-        cells: ['13', 'mySQL', '', '', '<b>x</b>', '', '2'],
+        cells: ['13', 'mySQL', '', '<b>x</b>', '', '', '2'],
       },
-      {
-        cells: ['14', 'Cordova', '<b>x</b>', '', '', '', '0.5'],
-      },
-      {
-        cells: ['15', 'Grunt/Gulp/Bower', '', '', '<b>x</b>', '', '1'],
-      },
+      // {
+      //   cells: ['14', 'Cordova', '<b>x</b>', '', '', '', '0.5'],
+      // },
+      // {
+      //   cells: ['15', 'Grunt/Gulp/Bower', '', '', '<b>x</b>', '', '1'],
+      // },
       {
         cells: ['<b>B</b>', '<b>Publishing Tools</b>', '', '', '', '', ''],
       },
-      {
-        cells: ['1', 'Sublime Text', '', '<b>x</b>', '', '', '1'],
-      },
-      {
-        cells: ['2', 'Photoshop', '', '<b>x</b>', '', '', '1'],
-      },
+      // {
+      //   cells: ['1', 'Sublime Text', '', '<b>x</b>', '', '', '1'],
+      // },
+      // {
+      //   cells: ['2', 'Photoshop', '', '<b>x</b>', '', '', '1'],
+      // },
       {
         cells: ['3', 'GIT', '', '<b>x</b>', '', '', '1'],
       },
@@ -98,18 +98,18 @@ export default {
       {
         cells: ['5', 'Jira', '', '<b>x</b>', '', '', '1'],
       },
-      {
-        cells: ['6', 'Eclipse, Android Studio', '<b>x</b>', '', '', '', '0.5'],
-      },
-      {
-        cells: ['<b>C</b>', '<b>Others</b>', '', '', '', '', ''],
-      },
-      {
-        cells: ['1', 'OOP', '', '<b>x</b>', '', '', '0.5'],
-      },
-      {
-        cells: ['2', 'AJAX/JSON', '', '', '<b>x</b>', '', '2'],
-      },
+      // {
+      //   cells: ['6', 'Eclipse, Android Studio', '<b>x</b>', '', '', '', '0.5'],
+      // },
+      // {
+      //   cells: ['<b>C</b>', '<b>Others</b>', '', '', '', '', ''],
+      // },
+      // {
+      //   cells: ['1', 'OOP', '', '<b>x</b>', '', '', '0.5'],
+      // },
+      // {
+      //   cells: ['2', 'AJAX/JSON', '', '', '<b>x</b>', '', '2'],
+      // },
     ],
   },
 };

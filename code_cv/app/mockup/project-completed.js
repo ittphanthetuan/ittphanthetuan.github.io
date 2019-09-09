@@ -29,25 +29,25 @@ export default {
         cells: ['1', '<b>Edetailing</b>', 'App Cordova',
           `
             <p><u>Job description</u> : Convert PSD file to <b>React</b>, fix bugs <b>cordova</b></p>
-            <p><u>Technologies</u> : ReactJS, Cordova, Redux-saga</p>
+            <p><u>Technologies</u> : ReactJS, Cordova, Redux-saga, ImmutableJS, Reselect</p>
           `,
           'Internal',
         ],
       },
-      {
-        cells: ['2', '<b>Emmar</b>', 'Web',
-          `
-            <p><u>Job description</u> : Convert PSD file to <b>HTML(pug)/SCSS</b></p>
-            <p><u>Technologies</u> : Query, Javascript, HTML, SCSS</p>
-          `,
-          'Internal',
-        ],
-      },
+      // {
+      //   cells: ['2', '<b>Emmar</b>', 'Web',
+      //     `
+      //       <p><u>Job description</u> : Convert PSD file to <b>HTML(pug)/SCSS</b></p>
+      //       <p><u>Technologies</u> : Query, Javascript, HTML, SCSS</p>
+      //     `,
+      //     'Internal',
+      //   ],
+      // },
       {
         cells: ['3', '<b>Yogaworks</b>', 'App ReactNative',
           `
             <p><u>Job description</u> : Build structure for project, read document, implement layout, integrate api</p>
-            <p><u>Technologies</u> : ReactNative, Redux-saga</p>
+            <p><u>Technologies</u> : ReactNative, Redux-saga, ImmutableJS, Reselect</p>
           `,
           'Internal',
         ],
@@ -65,7 +65,7 @@ export default {
         cells: ['4', '<b>Realworld</b>', 'Web' ,
           `
             <p><u>Job description</u> : Read document api, implement layout by <b>React</b></p>
-            <p><u>Technologies</u> : React, Redux-saga</p>
+            <p><u>Technologies</u> : React, Redux-saga, ImmutableJS, Reselect</p>
           `,
           '<a href="http://react-app-pr.herokuapp.com/">http://react-app-pr.herokuapp.com/</a>',
         ],
@@ -74,7 +74,7 @@ export default {
         cells: ['5', '<b>Laava</b>', 'Web App' ,
           `
             <p><u>Job description</u> : Read document, research GrapJS, build structure for project, convert <b>Sketch</b> file to <b>React</b></p>
-            <p><u>Technologies</u> : React, Redux, Grapesjs</p>
+            <p><u>Technologies</u> : React, Redux-thunk, Grapesjs</p>
           `,
           'Internal',
         ],

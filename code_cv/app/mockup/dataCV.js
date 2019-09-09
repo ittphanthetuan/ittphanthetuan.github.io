@@ -47,7 +47,7 @@ export default {
     ],
   },
   categories: [
-    languageSkills,
+    // languageSkills,
     myStrengthsSkills,
     whyYouHireMe,
     education,

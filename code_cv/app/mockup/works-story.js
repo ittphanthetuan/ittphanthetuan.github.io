@@ -39,13 +39,10 @@ export default {
         ],
       },
       {
-        cells: ['2', 'Sutrix solution', '2017 - now', '1.5 Year', 'Front-end',
+        cells: ['2', 'Sutrix solution', '2017 - now', '2 Year', 'Front-end',
           `
-          <p>- Coding jQuery plugins for the projects.</p>
-          <p>- Doing layout HTML/CSS for the web responsive.</p>
-          <p>- Supporting JS and HTML/CSS</p>
+          <p>- ReactJS (use Boilerplate Template, Cordova), ImmutableJS, Reselect, React Native, Redux, VueJS, Jquery, NodeJS (Express), Gulp, HTML(Pug), CSS (SCSS)</p>
           <p>- Convert PSD to HTML</p>
-          <p>- ReactJS (use Boilerplate Template, Cordova) , React Native, Redux, VueJS, Jquery, NodeJS (Express), Gulp, HTML(Pug), CSS (SCSS)</p>
           `,
         ],
       },
