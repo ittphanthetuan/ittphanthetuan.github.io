@@ -1,7 +1,7 @@
 /* eslint-disable react/display-name */
 import React, { Suspense, lazy } from 'react';
-import { PATH_DASHBOARD } from 'router/path'
-import Layout from 'components/Layout';
+import { PATH_DASHBOARD } from './path'
+import Layout from '../components/Layout';
 import { useRoutes } from 'react-router-dom';
 
 const Loadable = (Component) => (props) => {
@@ -13,9 +13,9 @@ const Loadable = (Component) => (props) => {
   );
 };
 
-const Dashboard = Loadable(lazy(() => import('pages/DashBoard')));
-const About = Loadable(lazy(() => import('pages/About')));
-const Detail = Loadable(lazy(() => import('pages/Detail')));
+const Dashboard = Loadable(lazy(() => import('../pages/DashBoard')));
+const About = Loadable(lazy(() => import('../pages/About')));
+const Detail = Loadable(lazy(() => import('../pages/Detail')));
 
 export default function Router() {
   return useRoutes([
