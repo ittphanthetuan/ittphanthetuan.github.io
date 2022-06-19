@@ -1,12 +1,12 @@
 
 import React from 'react';
-import Routers from 'routers';
+import Router from 'router';
 
 function App() {
   return (
     <>
       <div>====</div>
-      <Routers />
+      <Router />
     </>
   );
 }
