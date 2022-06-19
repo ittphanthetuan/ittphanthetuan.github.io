@@ -1,12 +1,11 @@
 
 import React from 'react';
-import Router from './router';
+import Routers from 'routers';
 
 function App() {
   return (
     <>
-      <div>====3</div>
-      <Router />
+      <Routers />
     </>
   );
 }

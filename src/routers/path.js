@@ -1,5 +1,4 @@
-
-const ROOT = '/';
+const ROOT = '/english-apps';
 
 const path = (sublink) => {
   return `${ROOT}${sublink}`
